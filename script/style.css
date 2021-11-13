@@ -1,0 +1,228 @@
+.corpo{
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #133654;
+}
+ /* Estilização do sobre */
+
+ .cabecalho {
+   background-color: gray;
+   padding: 15px 0;
+ }
+
+.sobre-lista{
+  text-align: center;  
+}
+
+.sobre-lista ul{
+   padding-top: 1rem;
+}
+
+ .sobre-lista li {
+   display: inline-block;
+   padding: 0 1rem 5px 1rem;
+  }
+
+  .item{ 
+    font-size: 20px;
+    color: white;
+  }
+
+/* Estilizações do conteúdo */
+
+.main{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.first-section{
+  padding-top: 15vh;
+}
+
+.div-section1{
+  padding-top: 30px;
+}
+
+.principal-texto{
+
+  font-size: 25px;
+  color: white;
+  display: inline-block;
+  width: 500px;
+  text-align: center;
+  padding: 0px 25px;
+}
+
+.btnMore{
+  display: block;
+  margin: 15px auto;
+  border-radius: 50px;
+  padding: 10px;
+  color: white;
+  border-color: #0ea0ff;
+  background-color: #0e3857;
+  text-decoration: none;
+}
+
+.btnDownload:hover{
+  text-decoration: none;
+}
+
+#linha{
+  border-bottom: 2px solid #cee6fa;
+  width: 700px;
+  margin: 30px auto;
+}
+
+/*  Sessão Acadêmica */
+
+.section-acad{
+  margin: 0 50px auto;
+  text-align: center;
+}
+
+.tittle-acad{
+  font-size: 40px;
+  font-weight:bold ;
+  color: white;
+  padding-bottom: 15px;
+}
+
+.cont-acad{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.txt-descri{
+  display: inline-block;
+  color: white;
+  padding-right: 50px;
+  font-size: 1.75rem;
+  padding: 15px 0;
+  width: 55%;
+}
+
+.txt-date{
+  width: 5%;
+  display: inline-block;
+  color: white;
+  font-size: .8rem;
+  /* vertical-align: middle; */
+  font-weight: 700;
+  opacity: .8;
+}
+
+.linha-acad{
+  border-bottom: 2px solid #cee6fa;
+  width: 600px;
+  margin: 0 auto;
+}
+
+
+/* Sessão final */
+
+.section-final{
+  width: 940px;
+  margin: 50px auto;
+}
+
+.skills, .contatos{
+  display: inline-block;
+  width: 385px;
+  height: 405px;
+  vertical-align:middle;
+  margin-right: 50px;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 8%);
+  box-sizing: border-box;
+}
+
+/* 
+.div:last-child{
+  margin-right: 0px;
+} */
+
+
+/* Estilizações sobre imagem */
+
+#img-perfil{
+  border-radius: 100%;
+  height: 150px;
+  width: 150px; 
+  object-fit: cover; 
+}  
+
+/* Efeitos */
+
+.sobre-lista li:hover {
+  color: #133654;
+  cursor: pointer; 
+}
+
+.btnMore:hover{
+  background-color: #0ea0ff;
+  text-decoration: none;
+}
+
+[data-anime] {
+  opacity: 0;
+  transition: 0.1s;
+}
+
+[data-anime="top"] {
+  transform: translate3d(0, -50px, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+/* Footer */
+
+
+.rodape{
+  text-align: center;
+  width: 100%;
+  margin: 50px 0;
+  color: white;
+  
+}
+
+
+/* Estilização GERAL */
+
+.tittle-div{
+  color: white;
+  font-size: 26px;
+  display: flex;
+  padding: 15px 0 15px 35px
+}
+
+.item-div{
+  color: white;
+  font-size: 15px;
+  line-height: 35px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.icon{
+  display: inline-block;
+  padding: 15px;
+  margin: 15px;
+  color: white;
+  content: "\f4e3";
+  box-sizing: border-box;
+  font-size: 45px;
+}
+
+.icon-link, .icon-email, .icon-git{
+  color: white;
+  margin-right: 5px;
+}
